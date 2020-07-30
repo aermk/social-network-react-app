@@ -1,6 +1,5 @@
 .app-wrapper {
   display: grid;
-  /* align-content: center; */
   grid-template-areas: 
   "h h"
   "n c";
