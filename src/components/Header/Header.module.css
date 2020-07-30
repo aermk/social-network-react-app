@@ -2,7 +2,7 @@
 
 .header {
   grid-area: h;
-  background-color: cadetblue;
+  background-color:rgb(112,81,107);
 }
 
 .header .logo {
