@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+
+.header {
+  grid-area: h;
+  background-color: cadetblue;
+}
+
+.header .logo {
+  font-family: 'Gochi Hand';
+}
