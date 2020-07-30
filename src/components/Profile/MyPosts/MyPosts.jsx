@@ -12,11 +12,8 @@ const MyPosts = () => {
             <button>Remove</button>
           </div>
          <div className={styles.posts}>
-            <Post />
-            <Post />
-            <Post />
-            <Post />
-            <Post />
+            <Post message='I study react js' likescounter='15'/>
+            <Post message='My heart is broken ;(' likescounter='1'/>
          </div>
         </div>
   )
