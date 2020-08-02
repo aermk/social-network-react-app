@@ -1,0 +1,21 @@
+.dialogs {
+  display: grid;
+  /* первая колонка занимает 2фр, остальные 10 */
+  grid-template-columns: 2fr 10fr;
+} 
+
+.dialogsItems  {
+  padding: 10px;
+}
+
+.dialogsItems .active {
+  color:  rgb(202, 226, 64);
+}
+
+.messages {
+  padding: 10px;
+}
+
+.messages .message {
+
+}
