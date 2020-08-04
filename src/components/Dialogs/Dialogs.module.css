@@ -8,8 +8,12 @@
   padding: 10px;
 }
 
-.dialogsItems .active {
+.activeLink {
   color:  rgb(202, 226, 64);
+}
+
+.dialog {
+  text-decoration: none;
 }
 
 .messages {
