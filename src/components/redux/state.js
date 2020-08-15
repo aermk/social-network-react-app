@@ -22,6 +22,13 @@ let state = {
       {id: 5, message: 'NO'},
       {id: 6, message: 'I want to eat'},
     ]
+  },
+  sidebar: {
+    friends: [
+      {id: 1, name: 'Sergey'},
+      {id: 2, name: 'Valentina'},
+      {id: 3, name: 'Ivan'}
+    ]
   }
 }
 
