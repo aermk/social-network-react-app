@@ -5,7 +5,8 @@ let state = {
     posts: [
       {id: 1, message: 'I study react js', likescounter: '15'},
       {id: 2, message: 'My heart is broken ;(', likescounter: '1'},
-    ]
+    ],
+    newPostText: 'Lalala'
   },
   dialogsPage: {
     dialogs: [
@@ -34,14 +35,21 @@ let state = {
   }
 }
 
-export let addPost = (postMessage) => {
-  debugger;
+export let addPost = () => {
+  // debugger;
   let newPost = {
     id: 5,
-    message: postMessage,
+    message: state.profilePage.newPostText,
     likescounter: 2
   }
-  state.profilePage.posts.push(newPost)
+  state.profilePage.posts.push(newPost);
+  rerenderEntireTrees(state);
+  state.profilePage.newPostText = '';
+}
+
+export let updateNewPostChange = (newText) => {
+  // debugger;
+  state.profilePage.newPostText = newText;
   rerenderEntireTrees(state);
 }
 
